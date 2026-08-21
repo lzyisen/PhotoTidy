@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* PhotoTidyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* PhotoTidyApp.swift */; };
+		A10000000000000000000002 /* ReviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ReviewModels.swift */; };
+		A10000000000000000000003 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* PhotoLibraryService.swift */; };
+		A10000000000000000000004 /* ReviewStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* ReviewStateStore.swift */; };
+		A10000000000000000000005 /* ReviewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ReviewSession.swift */; };
+		A10000000000000000000006 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* AppRootView.swift */; };
+		A10000000000000000000007 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* PermissionView.swift */; };
+		A10000000000000000000008 /* PhotoAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* PhotoAssetView.swift */; };
+		A10000000000000000000009 /* SwipeReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* SwipeReviewView.swift */; };
+		A1000000000000000000000A /* DeleteQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* DeleteQueueView.swift */; };
+		A1000000000000000000000B /* ReviewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* ReviewModelsTests.swift */; };
+		A1000000000000000000000C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* XCTest.framework */; };
+		A1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* PhotoTidyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTidyApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ReviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* ReviewStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStateStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* ReviewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSession.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* PhotoAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* SwipeReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeReviewView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* DeleteQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteQueueView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* ReviewModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModelsTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* PhotoTidy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTidy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A2000000000000000000000E /* PhotoTidyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTidyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* PhotoTidy */,
+				A4000000000000000000000A /* PhotoTidyTests */,
+				A40000000000000000000009 /* Frameworks */,
+				A40000000000000000000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* PhotoTidy */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* PhotoTidyApp.swift */,
+				A2000000000000000000000F /* Assets.xcassets */,
+				A40000000000000000000003 /* Models */,
+				A40000000000000000000004 /* Services */,
+				A40000000000000000000005 /* Features */,
+				A40000000000000000000006 /* Views */,
+			);
+			path = PhotoTidy;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* ReviewModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* PhotoLibraryService.swift */,
+				A20000000000000000000004 /* ReviewStateStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* ReviewSession.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* AppRootView.swift */,
+				A20000000000000000000007 /* PermissionView.swift */,
+				A20000000000000000000008 /* PhotoAssetView.swift */,
+				A20000000000000000000009 /* SwipeReviewView.swift */,
+				A2000000000000000000000A /* DeleteQueueView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000C /* PhotoTidy.app */,
+				A2000000000000000000000E /* PhotoTidyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4000000000000000000000A /* PhotoTidyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000B /* ReviewModelsTests.swift */,
+			);
+			path = PhotoTidyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* PhotoTidy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXNativeTarget "PhotoTidy" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTidy;
+			productName = PhotoTidy;
+			productReference = A2000000000000000000000C /* PhotoTidy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* PhotoTidyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000003 /* Build configuration list for PBXNativeTarget "PhotoTidyTests" */;
+			buildPhases = (
+				A70000000000000000000002 /* Sources */,
+				A30000000000000000000002 /* Frameworks */,
+				A80000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = PhotoTidyTests;
+			productName = PhotoTidyTests;
+			productReference = A2000000000000000000000E /* PhotoTidyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					A50000000000000000000002 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = A50000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXProject "PhotoTidy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* PhotoTidy */,
+				A50000000000000000000002 /* PhotoTidyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* PhotoTidyApp.swift in Sources */,
+				A10000000000000000000002 /* ReviewModels.swift in Sources */,
+				A10000000000000000000003 /* PhotoLibraryService.swift in Sources */,
+				A10000000000000000000004 /* ReviewStateStore.swift in Sources */,
+				A10000000000000000000005 /* ReviewSession.swift in Sources */,
+				A10000000000000000000006 /* AppRootView.swift in Sources */,
+				A10000000000000000000007 /* PermissionView.swift in Sources */,
+				A10000000000000000000008 /* PhotoAssetView.swift in Sources */,
+				A10000000000000000000009 /* SwipeReviewView.swift in Sources */,
+				A1000000000000000000000A /* DeleteQueueView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000B /* ReviewModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* PhotoTidy */;
+			targetProxy = A90000000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		A90000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = PhotoTidy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		AB00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AB00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo Tidy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Tidy needs access to show your photos and queue the ones you choose for deletion.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yisenwang.PhotoTidy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo Tidy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Tidy needs access to show your photos and queue the ones you choose for deletion.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yisenwang.PhotoTidy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yisenwang.PhotoTidyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTidy.app/PhotoTidy";
+			};
+			name = Debug;
+		};
+		AB00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yisenwang.PhotoTidyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTidy.app/PhotoTidy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXProject "PhotoTidy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00000000000000000000001 /* Debug */,
+				AB00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXNativeTarget "PhotoTidy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00000000000000000000003 /* Debug */,
+				AB00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000003 /* Build configuration list for PBXNativeTarget "PhotoTidyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00000000000000000000005 /* Debug */,
+				AB00000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA00000000000000000000001 /* Project object */;
+}
