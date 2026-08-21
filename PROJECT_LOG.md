@@ -134,4 +134,6 @@ This is the chronological engineering record for Photo Tidy. Each completed impl
 
 - Created the public repository [`lzyisen/PhotoTidy`](https://github.com/lzyisen/PhotoTidy) with `main` as its default branch.
 - The publication snapshot will contain only committed source and project documentation; the local Personal Team signing change remains excluded.
-- After the source upload completes, record the resulting public commit in this log.
+- Uploaded the complete clean source tree, including the Xcode project, SwiftUI/PhotoKit code, tests, icon assets, docs, scripts, license, and contribution/security guidance.
+- Verified the public project file and documentation contain neither the local Personal Team identifier nor `/Users/yisenwang` paths.
+- Published the `v0.1.0` GitHub release from public commit `c2df1cdc7b244d813b778bc64f9b38c222c68bbf`.
